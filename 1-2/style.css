@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    box-shadow: 1px 3px 42px 8px rgba(0, 0, 0, 0.062);
+    border-radius: 5px;
+}
+
+/*-------------------------------------------------------*/
+
+button {
+    display: flex;
+    padding: 15px;
+    background-color: rgba(30, 114, 241, 0.692);
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 700;
+    align-items: center;
+    cursor: pointer;
+}
+
+button .btn-text {
+    margin-left: 10px;
+}
+
